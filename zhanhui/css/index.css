@@ -1,0 +1,77 @@
+*{padding: 0;margin: 0;}
+html{
+    font-size:62.5%; /* *10 ÷ 16 × 100% = 62.5% */
+}
+body{
+    font-size:12px;
+    font-size:1.2rem; /* 12÷ 16× 100%=1.2 */
+}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div {margin:0;padding:0;border:0;font-weight:normal;}
+img{border: 0;padding: 0;margin: 0;  }
+ul,ol,li{  list-style-type:none;padding: 0;margin: 0;}
+
+.container {  margin-right: auto;  margin-left: auto;  padding-left: 1rem;  padding-right: 1rem;  }
+.mobile-header ul .nav-img{width: 23%;float: right;}
+.ad img{max-width: 715px;width: 100%;text-align: center;margin: 2% 0;}
+.mobile-menu ul li ul{display:none;}
+.mobile-header ul .nav-img a { width: auto;padding-top: 6px;margin-right: 5px;float: right;display: block;}
+.mobile-menu ul > li{background: #534ed3;}
+.m-menu img{width: 64px;height: 28px;}
+.nav-img a img{width: 39px;height: 38px;}
+.banner-bg{background: url(../images/banner_01.png) no-repeat; height: 203px;margin-top: 2%;}
+.banner-bg .qiehuan{background: #3a3694;float: right;padding: 6px 10px;border-radius: 8px 8px 0 0;margin-top: 41px;margin-right: 2px;}
+.banner-bg .qiehuan a{text-decoration: none;color: #fff;font-weight: 700;}
+
+.bian5{border: 1px solid #c8c8c8;border-top: none;position: relative;margin-top: -78px;}
+.mes{position: relative;overflow: auto;left: 0px;margin-left: 90px;}
+.mes ul li{list-style: none;}
+.mes ul li { float: left; }
+.mes ul li .canguan{width: 85px;margin-top: -37px;float: right;margin-right: 0px;}
+.mes ul li .canguan a{text-decoration:none;display:block;background: url(../images/home1_03.png) top center no-repeat;height: 36px;color: #9a9999;}
+.mes ul li .canguan a h4{line-height: 50px;padding-top: 20px;}
+
+.mes h3{font-size: 1.2rem;color: #6e6e6e;font-weight: 700;line-height: 2.8rem;letter-spacing: 0px;}
+.mes h4{font-size: 1.2rem;color: #6e6e6e;line-height: 1.8rem;}
+.mes a{text-decoration: none;font-size: 1.2rem;color: #034fa2;line-height: 2.4rem;}
+
+.home-banner{margin-top: 2%;}
+.home-banner ul{overflow: hidden;}
+.home-banner ul li{float: left;width: 25%;position: relative;}
+.home-banner ul li a{text-decoration: none;color: #fff;}
+.home-banner ul li a img{width: 100%;display: block;}
+.home-banner ul li span{display: block;position: absolute;margin-top: -40%;width: 100%;text-align: center;}
+
+.new-news{border: 1px solid #cccccc;margin-top: 2%;padding: 1%;}
+.new-news img{max-width: 715px;width: 100%;}
+.new-news ul {overflow: hidden;margin-top: 8%;}
+.new-news ul li{margin-bottom: 2rem;}
+.new-news ul li span{display: block;float: left;background: #3a3694;font-size: 2.5rem;text-align: center;padding:15px 10px;color: #fff;margin-right:10px; }
+.new-news ul li span i{display: block;font-size: 1.2rem;font-style: normal;}
+.new-news ul li a{text-decoration: none;font-size: 1.4rem;color: #6e6e6e;}
+.new-news ul li a h4{font-weight: 600;line-height: 2.8rem;height: 2.8rem;overflow: hidden;}
+.new-news ul li p{font-size: 1.2rem;color: #6e6e6e;line-height: 1.9rem;height: 40px;overflow: hidden;}
+
+.home-list{margin-top: 5%;}
+.home-list ul li{margin-bottom: 6px;border-bottom: 4px solid #bfbdc8;padding: 10px 0 10px 70px;}
+.home-list ul li a{text-decoration: none;}
+.home-list ul li a h2{font-size: 1.8rem;color: #034fa2;font-weight: 700;}
+.home-list ul li a h3{font-size: 1.4rem;color: #7f7f7f;}
+.home-list ul .list1{background:url(../images/index_22.jpg) no-repeat 20px center #0765cf;border-bottom: 4px solid #064b9e;}
+.home-list ul .list1 a h2{color: #fff;}
+.home-list ul .list1 a h3{color: #fff;}
+.home-list ul .list2{background:url(../images/index_26.jpg) no-repeat 20px center #e3e2ec;}
+.home-list ul .list3{background:url(../images/index_30.jpg) no-repeat 20px center #e3e2ec;}
+.home-list ul .list4{background:url(../images/index_34.jpg) no-repeat 20px center #e3e2ec;}
+
+
+.danwei{margin-top: 5%;padding-bottom: 5%;}
+.danwei ul{overflow: hidden;}
+.danwei ul li{float: left;}
+.danwei ul li:first-child{width: 60%;}
+.danwei ul li h3{font-size:1.2rem;color:  #284e9f;margin-left: .5rem;line-height: 2.4rem;font-weight: 700;}
+.danwei  img{max-width: 715px;width: 100%;}
+.danwei p{font-size: 1.2rem;color: #5a5a5a;line-height: 2.4rem;padding-left: 0.5rem;padding-top: 2%;}
+.danwei p i{font-style: normal;color: #034fa2;font-weight: 700;}
+.danwei p span{padding-left: 3rem;}
+.footer ul{width: 180px;}
+.mobile-header .clearfloat .biaoti{color: #fff;font-size: 1.4rem;width:50%;float: left;margin-top: 15px;text-align: center;}

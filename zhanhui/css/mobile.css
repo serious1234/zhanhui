@@ -1,0 +1,68 @@
+@media (min-width: 320px) and (max-width: 380px){
+    .shenqing ul li a{ width: 280px;
+    overflow: hidden;
+    white-space:nowrap;
+    -o-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    display:block;}
+}
+@media (min-width: 320px) and (max-width: 335px){
+    .nav-banner ul li{float: left;line-height: 3.6rem;width:24%;text-align: center;}
+    .nav-banner ul li a{text-align: center;color: #7a7a7a;text-decoration: none;border-left: 1px solid #dbdbdb;display: block;}
+    .nav-banner ul li:first-child{width: 28%;}
+}
+@media (min-width: 320px) and (max-width: 382px){
+    .mobile-header ul .nav-img {
+    width: 30%;
+    float: right;
+}
+    .mobile-header ul .nav-img a {
+        width: auto;
+        padding-top: 6px;
+        margin-left: 0px;
+    }
+    .mobile-header .clearfloat .biaoti {
+    color: #fff;
+    font-size: 1.4rem;
+    width: 45%;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}
+}
+@media (min-width: 320px) and (max-width: 419px){
+    .danwei p span{padding-left: 6rem;display: block;}
+}
+
+
+/*@media (min-width: 320px) and (max-width: 334px){*/
+    /*.mes{padding-left: 10px;display: block;border: 1px solid #c8c8c8;max-width: 100%;margin-top: -80px;border-top: none;}*/
+    /*.banner-bg .canguan{width: 85px;float: right;margin-top: 195px;margin-right: -60px;}*/
+/*}*/
+/*@media (min-width: 335px) and (max-width: 374px){*/
+    /*.mes{padding-left: 10px;display: block;border: 1px solid #c8c8c8;max-width: 100%;margin-top: -80px;border-top: none;}*/
+    /*.banner-bg .canguan{width: 85px;float: right;margin-top: 165px;margin-right: -60px;}*/
+/*}*/
+/*@media (min-width: 375px) and (max-width: 444px){*/
+    /*.mes{padding-left: 50px;display: block;border: 1px solid #c8c8c8;max-width: 100%;margin-top: -80px;border-top: none;}*/
+    /*.mes h3{font-size: 8px;color: #6e6e6e;font-weight: 700;line-height: 2rem;}*/
+    /*.banner-bg .canguan{width: 85px;float: right;margin-top: 155px;margin-right: -60px;}*/
+/*}*/
+@media (min-width: 320px) and (max-width: 469px){
+    .search-list ul .search-list-left{width: 200px;overflow: hidden;}
+    .search-list ul li{padding-top: 10px;padding-bottom: 34px;}
+    .search-list ul .search-list-right {  padding: 15px 20px;margin-top: 6px; }
+}
+@media (min-width: 320px) and (max-width: 389px){
+    .hotel-name .hotel-contact{text-align: center;}
+    .hotel-name .hotel-contact img{float: none;padding-right: 0; }
+    .hotel-name .hotel-contact .hotel-font{}
+}
+@media (min-width: 320px) and (max-width: 369px){
+    .login form{background: url(../images/login_03.jpg) no-repeat center ; height: 215px; width: 346px; margin: auto;}
+    .login form{background-size: 85%;margin: auto;margin-left: -25px;}
+    .login form input{background: transparent;border:none;position: absolute;margin-left: 38px;}
+    .login .login1{height: 26px;margin-top: 64px;width: 266px;}
+    .login .login2{height: 26px;width: 266px;margin-top: 114px;}
+    .login .login3{width: 90px;height: 40px;margin-top: 152px;border-radius: 10px;}
+}
